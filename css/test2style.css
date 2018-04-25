@@ -1,0 +1,18 @@
+h1 {color: maroon;}
+.organic {color: green;}
+.large{font-size: 20px;}
+.uppercase{text-transform: uppercase;}
+
+#maintitle{font-family: cursive; color: teal; text-transform: capitalize;
+}
+
+.author{color: purple}
+.ptime{color: grey;}
+
+.destination{font-family: cursive;}
+
+h5, p{font-family: georgia;}
+
+.bold{font-weight: bold;}
+
+.bold li {font-size: 20px;}

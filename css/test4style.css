@@ -1,0 +1,62 @@
+body {
+	background-color: white;
+	padding: 40px;
+	font-family: 'Yantramanav', sans-serif;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header h4 {
+	text-transform: uppercase;
+	color: grey;
+	text-align: center;
+	margin: 0;
+	font-weight: lighter;
+}
+
+.header h1 {
+	text-transform: capitalize;
+	color: #004E89;
+	text-align: center;
+	font-size: 45px;
+	margin: 10px;
+	font-weight: lighter;
+}
+
+.header p {
+	color: grey;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.controls {
+	margin-top: 60px;
+}
+
+.controls a {
+	color: #004E89;
+	background-color:  #9DD1F1;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 12px;
+	margin: 0px 10px;
+	border: 1px solid #9DD1F1;
+	border-radius: 3px;
+ }
+
+ .buttons {
+ 	width: 900px;
+ 	margin: 40px auto;
+ } 
+
+ .card {
+ 	display: inline-block;
+ 	border: 20px solid #9DD1F1;
+ 	width: 250px;
+ 	height: 200px;
+ 	margin-top: 40px;
+ 	padding: 30px 0;
+ }

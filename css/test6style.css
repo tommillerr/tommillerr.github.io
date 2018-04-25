@@ -1,0 +1,104 @@
+* {
+margin: 0;  
+padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	text-align: center;
+}
+
+header {
+	background-color: #466995;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+
+ul {
+	margin: 0 auto;
+	padding: 20px;
+}
+
+li {
+	font-family: 'oswald', sans-serif;
+	list-style-type: none;
+	display: inline-block;
+	color: white;
+	margin: 10px 10px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.welcome {
+	background-color: #DBE9EE;
+	width: 100%;
+	position: relative;
+	top: 50px; /*MUST STATE PX*/
+	padding: 50px;
+	box-sizing: border-box; /*IMPORTANT TO STATE WITH PADDIN TO KEEP CONTENT ALIGNED*/
+}
+
+.question {
+	position: relative; /*NEEDED FOR ELEMENT TO DISPLAY AS TOP ELEMENT IS RELATIVE*/
+	top: 5px;
+}
+
+.welcome h1 {
+	color: #466995;
+	text-transform: uppercase;
+	padding: 20px 0;
+	font-family: 'oswald', sans-serif;
+	font-weight: lighter;
+}
+
+.welcome p {
+	padding: 0px 0 20px 0px;
+	font-family: 'varela round', sans-serif;
+	font-size: 18px;
+	width: 80%;
+	margin: 0 auto; /*MUST USE NOW THAT WIDTH IS REDUCED */
+}
+
+
+.question h4 {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: lighter;
+	font-family: 'oswald', sans-serif;
+	color: #466995;
+	padding: 20px 0;
+}
+
+.question p {
+	font-size: 30px;
+	width: 90%;
+	margin: 0 auto; /*MUST USE NOW THAT WIDTH IS REDUCED */
+	padding: 20px 0;
+}
+
+.answer {
+	margin: 40px 20px;
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	border: 1px solid #466995;
+}
+
+h3 {
+	padding: 60px 50px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin: 0 auto;
+	color: #466995;
+	font-family: 'oswald', sans-serif;
+}
+
+.answer:hover {
+	background-color:  #C0D6DF;
+}
+
+footer {
+	width: 100%;
+	background-color: #DBE9EE;
+}

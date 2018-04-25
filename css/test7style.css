@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	background: #EAE0D5;
+}
+
+header {
+	width: 100%;
+	height: 400px;
+	background-image: url('https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb'); 
+	background-position: center center; /*USED INSTEAD OF BACKGROUND-SIZE: COVER - DIDN'T DISPLAY FULL IMAGE;*/
+}
+
+h1 {
+	text-align: center;
+	background-color: aqua;
+	position: relative;
+	top: 20%; /*EASIER ALTERNATIVE (use percentages) TO USING PIXELS FOR ACCURATE POSINTIONING*/
+	color: blue;
+	font-size: 100px;
+	font-family: 'Covered By Your Grace', sans-serif;
+	line-height: 76px; /*REDUCES THICKNESS OF BACKGROUND*/
+}
+
+.maincont {
+	width: 75%;
+	margin: 40px auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+.maincont h3 {
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+.maincont p {
+	text-align: center;
+	font-family: 'Raleway', sans-serif; /*ALWAYS CHANGE FONT FAMILY FIRST - THEY CHANGE SIZE, LINE HEIGHT ETC.*/
+	font-size: 16px;
+	color: #938E89;
+	line-height: 26px; /*VERY IMPORTNT ASTHETICALLY*/
+	margin-bottom: 20px;
+}
+
+.colour div { /*ANY DIV WITHIN THE .COLOUR, REGARDLESS OF CLASS. BEST WAY TO TARGET DIFFERENT DIVS WITH SAME PARENT DIV*/
+	color: white;
+	text-align: left;
+	padding: 20px;
+	font: inherit; /*inherti VALUE CAN BE USED WITH ANY CSS PROPERTY, MAKES ELEMENT INHERIT VALUE OF PARENT*/
+
+}
+
+.colour p { /*MUST TARGET P INDIVIDUALLY IN ADITION FOR SOME REASON*/
+	color: white;
+	text-align: left;
+}
+
+.colour h4 {
+	font-size: 30px;
+	
+}
+
+.colour h5 {
+ 	font-size: 20px;
+  	font-weight: 300;
+  	line-height: 200%; /* INCREAD LINE HEIGHT OF HEADER - ALTERNATIVE TO ADDING PADDING*/
+}
+
+.green {
+  background-color: #9EB599;
+}
+
+.light {
+  background-color: #683C2C;
+}
+
+.city {
+  background-color: #4C352D;
+}
+
+.vienna {
+  background-color: #352926;
+}
+
+.italian {
+  background-color: #141212;
+}
+
+
+.countries {
+	margin: 40px auto;
+	width: 75%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.countries div {
+	border-bottom: 2px solid #E4BB97; 
+	padding: 50px 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.countries p {
+	margin: 20px 0;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: lighter;
+	font-family: 'Karla', sans-serif;
+}
+
+.countries h2 {
+	text-transform: uppercase;
+	color: #E4BB97;
+	font-size: 28px;
+}
