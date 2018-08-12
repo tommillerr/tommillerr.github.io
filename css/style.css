@@ -1,7 +1,0 @@
-.container {
-	margin: 0 auto; width: 940px; max-width: 940px; padding: 0 10px; /* not working, why?*/
-}
-
-#drake {
-	color: green; text-align: center;  /* text-align made everthing in drake (including picture) align. .container only changed the padding
-}
