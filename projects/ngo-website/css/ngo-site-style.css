@@ -612,6 +612,7 @@ footer nav {
 	#devgoals .container {
 		position: relative;
 		top: 0;
+		left: 0;
 	}
 
 	#devgoals .container .box .details .content {
